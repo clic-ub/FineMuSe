@@ -7,3 +7,8 @@ To advance research on fine-grained sexism detection, we present FineMuSe, a new
 The final dataset contains 828 videos, each labeled as sexist or non-sexist, and includes granular annotations for both sexist and non-sexist content. The annotations were developed using a three-level hierarchical taxonomy, with the first level comprising mutually exclusive categories and the second and third levels comprising categories that may co-occur.
 
 <img width="756" height="327" alt="final_taxonomy" src="https://github.com/user-attachments/assets/b2873bdb-3907-4240-816f-5bbf78cb9e9c" />
+
+<h2>
+  <img width="30" height="50" alt="analysing" src="https://github.com/user-attachments/assets/72d52d34-1889-447a-9928-71a698a710f9" />
+  Dataset Statistics
+</h2>
