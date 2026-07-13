@@ -9,6 +9,17 @@ The final dataset contains 828 videos, each labeled as sexist or non-sexist, and
 <img width="756" height="327" alt="final_taxonomy" src="https://github.com/user-attachments/assets/b2873bdb-3907-4240-816f-5bbf78cb9e9c" />
 
 <h2>
-  <img width="30" height="50" alt="analysing" src="https://github.com/user-attachments/assets/72d52d34-1889-447a-9928-71a698a710f9" />
+  <img width="40" alt="analysing" src="https://github.com/user-attachments/assets/72d52d34-1889-447a-9928-71a698a710f9" />
   Dataset Statistics
 </h2>
+
+FineMuSe has a balanced distribution between sexist and non-sexist content, with 48.5% of the videos labeled as sexist in P1 and 54.2% in P2. The following figures illustrate the distribution of sexist and non-sexist categories across P1 and P2:
+
+<div>
+  <img width="424" height="280" alt="sexist_types" src="<img width="466" height="309" alt="updated_sexist_types" src="https://github.com/user-attachments/assets/70306d63-189f-43a9-add7-9702adf89e90" />
+" />
+  <img width="424" height="280" alt="non_sexism" src="<img width="420" height="218" alt="updated_no_sexist_types" src="https://github.com/user-attachments/assets/13abaf37-a04a-44da-8b9d-e88387d3e704" />
+" />
+</div>
+
+
