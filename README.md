@@ -33,7 +33,7 @@ The fine-grained classification was more complex than the binary annotation, as 
   Evaluation of LLMs and Multimodal LLMs 
 </h2>
 
-We evaluated a wide range of LLMs that process text-only inputs as well as multimodal LLMs that integrate both text and images. The task first requires determining whether a social media post is sexist and, if so, identifying its specific type(s) of sexism. All evaluations were conducted against labels assigned by annotators who had access to the full video. Our findings suggest that LLMs perform competitively with human annotators, particularly when they have access to multimodal information. The following figure illustrates the results for the fine-grained task across multimodal models, using Macro F1 as the evaluation metric, computed over all ground-truth sexist instances:
+We evaluated a wide range of LLMs that process text-only inputs as well as multimodal LLMs that integrate both text and images. The task first requires determining whether a social media post is sexist and, if so, identifying its specific type(s) of sexism. All evaluations were conducted against labels assigned by annotators who had access to the full video. Our findings suggest that LLMs perform competitively with human annotators, particularly when they have access to multimodal information. The following figure illustrates the results for the fine-grained task across multimodal models, using per-class F1 as the evaluation metric:
 
 <img width="1138" height="424" alt="macro_f1" src="https://github.com/user-attachments/files/29962132/per_class_f1_multimodal.pdf" />
 
