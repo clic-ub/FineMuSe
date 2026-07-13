@@ -1,6 +1,6 @@
 # FineMuSe
 
-This repository is associated with the research paper titled "Beyond Binary Classification: Detecting Fine-Grained Sexism in Social Media Videos", Laura De Grazia, Danae Sánchez Villegas, Desmond Elliott, Mireia Farrús, and Mariona Taulé.
+This repository is associated with the research paper titled *Beyond Binary Classification: Detecting Fine-Grained Sexism in Social Media Videos*, Laura De Grazia, Danae Sánchez Villegas, Desmond Elliott, Mireia Farrús, and Mariona Taulé.
 
 To advance research on fine-grained sexism detection, we present FineMuSe, a new fine-grained multimodal dataset for sexism detection in Spanish (European and Peninsular). FineMuSe includes videos from the MuSeD dataset, which originally contained only binary annotations for TikTok and BitChute videos. In FineMuSe, these videos have been extended with fine-grained annotations. Additionally, the dataset includes a new data source, YouTube Shorts, which contains both binary and fine-grained annotations. For convenience, we refer to the TikTok and BitChute videos as Part 1 (P1) and the YouTube Shorts videos as Part 2 (P2).
 
@@ -39,3 +39,22 @@ We evaluated a wide range of LLMs that process text-only inputs as well as multi
 
 ## Dataset file structure
 
+To respect privacy and platform terms, only video IDs are shared, no video content is distributed. The dataset includes the binary labels and the individual labels for each of the three levels of the annotation (Text, Audio, and Video) for both Part 1 and Part 2. Each file has the following columns:
+
+* **Video_ID**: 
+    * For Part 1, the video_id combines platform and video identifier. Platforms: TikTok (prefix tt), BitChute (prefix bt) 
+    * For Part 1, the video_id includes only the video identifier, given that we sampled only from one platform.
+      
+* **Category_Majority_Voting**: The final label computed using a majority vote approach
+
+* **Category_Label**: The individual label assigned by each annotator.
+
+**Example**: 
+
+| Video_ID | Sexism_Majority_Voting |  |
+| :--- | :---: | :---: |
+| bt_VUm_TNY7LNE |  |  |
+|  |  | |
+|  |  |  |
+
+For research purposes, you can get access to the full dataset by filling out this FORM (LINK). 
