@@ -51,10 +51,9 @@ To respect privacy and platform terms, only video IDs are shared, no video conte
 
 **Example**: 
 
-| Video_ID | Sexism_Majority_Voting |  |
-| :--- | :---: | :---: |
-| bt_VUm_TNY7LNE |  |  |
-|  |  | |
-|  |  |  |
+| Video_ID | Sexism_Majority_Voting | Sexism_Label| Sexism_Majority_Voting | Sexism_Label|
+| :--- | :---: | :---: | | :---: | | :---: |
+| bt_1bQe-FLbb5k | 1 | [1, 0, 1] | | 1 | | 1 |
+
 
 For research purposes, you can get access to the full dataset by filling out this FORM (LINK). 
