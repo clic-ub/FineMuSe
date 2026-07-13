@@ -27,5 +27,14 @@ FineMuSe has a balanced distribution between sexist and non-sexist content, with
 We relied on six expert annotators of diverse genders and ages to ensure demographic variety. The group was split into two teams, each assigned half of the dataset. The annotation process followed a three-step approach: first, annotating text transcripts; second, annotating audio; and finally, annotating videos. Each team annotated the text transcripts and videos for their assigned subset, while the other team handled the audio. To evaluate the reliability of the annotations, we computed Fleiss' Kappa. For the binary task, the Kappa values ranged from substantial (0.61–0.80) to almost perfect agreement (0.81–1.00). 
 The fine-grained classification was more complex than the binary annotation, as evidenced by lower IAA scores, ranging from moderate (0.41–0.60) to substantial (0.61–0.80). 
 
+---
+<h2>
+  <img width="40" alt="robot" src="https://github.com/user-attachments/assets/1a1a55e2-93f3-440b-a683-d5dcfe134b54" />
+  Evaluation of LLMs and Multimodal LLMs 
+</h2>
+
+We evaluated a wide range of LLMs that process text-only inputs as well as multimodal LLMs that integrate both text and images. The task first requires determining whether a social media post is sexist and, if so, identifying its specific type(s) of sexism. All evaluations were conducted against labels assigned by annotators who had access to the full video. Our findings suggest that LLMs perform competitively with human annotators, particularly when they have access to multimodal information. The following figure illustrates the results for the fine-grained task across multimodal models, using Macro F1 as the evaluation metric, computed over all ground-truth sexist instances:
+
+<img width="1138" height="424" alt="macro_f1" src="https://github.com/user-attachments/files/29962132/per_class_f1_multimodal.pdf" />
 
 
