@@ -1,6 +1,6 @@
 # FineMuSe
 
-This repository is associated with the research paper titled Beyond Binary Classification: Detecting Fine-Grained Sexism in Social Media Videos, Laura De Grazia, Danae Sánchez Villegas, Desmond Elliott, Mireia Farrús, and Mariona Taulé.
+This repository is associated with the research paper titled "Beyond Binary Classification: Detecting Fine-Grained Sexism in Social Media Videos", Laura De Grazia, Danae Sánchez Villegas, Desmond Elliott, Mireia Farrús, and Mariona Taulé.
 
 To advance research on fine-grained sexism detection, we present FineMuSe, a new fine-grained multimodal dataset for sexism detection in Spanish (European and Peninsular). FineMuSe includes videos from the MuSeD dataset, which originally contained only binary annotations for TikTok and BitChute videos. In FineMuSe, these videos have been extended with fine-grained annotations. Additionally, the dataset includes a new data source, YouTube Shorts, which contains both binary and fine-grained annotations. For convenience, we refer to the TikTok and BitChute videos as Part 1 (P1) and the YouTube Shorts videos as Part 2 (P2).
 
@@ -16,8 +16,8 @@ The final dataset contains 828 videos, each labeled as sexist or non-sexist, and
 FineMuSe has a balanced distribution between sexist and non-sexist content, with 48.5% of the videos labeled as sexist in P1 and 54.2% in P2. The following figures illustrate the distribution of sexist and non-sexist categories across P1 and P2:
 
 <div>
-  <img width="45%" alt="updated_sexist_types" src="https://github.com/user-attachments/assets/70306d63-189f-43a9-add7-9702adf89e90" />
-  <img width="45%" alt="updated_no_sexist_types" src="https://github.com/user-attachments/assets/13abaf37-a04a-44da-8b9d-e88387d3e704" />
+  <img width="45%" alt="updated_sexist_types" src="[combined_sexism_figures.pdf](https://github.com/user-attachments/files/29960186/combined_sexism_figures.pdf)
+" />
 </div>
 
 
