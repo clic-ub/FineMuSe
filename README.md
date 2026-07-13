@@ -39,21 +39,21 @@ We evaluated a wide range of LLMs that process text-only inputs as well as multi
 
 ## Dataset file structure
 
-To respect privacy and platform terms, only video IDs are shared, no video content is distributed. The dataset includes the binary labels and the individual labels for each of the three levels of the annotation (Text, Audio, and Video) for both Part 1 and Part 2. Each file has the following columns:
+To respect privacy and platform terms, only video IDs are shared, and no video content is distributed. The dataset includes both binary and individual labels for each of the three levels of annotation (Text, Audio, and Video) for both Part 1 and Part 2. Each file contains the following columns:
 
 * **Video_ID**: 
-    * For Part 1, the video_id combines platform and video identifier. Platforms: TikTok (prefix tt), BitChute (prefix bt) 
-    * For Part 1, the video_id includes only the video identifier, given that we sampled only from one platform.
+    * For P1, the video_id combines the platform name and the video identifier. Platforms include: TikTok (prefix tt), BitChute (prefix bt) 
+    * For P2, the video_id For Part 2, the video_id includes only the video identifier, given that we sampled from a single platform.
       
-* **Category_Majority_Voting**: The final label computed using a majority vote approach
+* **Category_Majority_Voting**: The final label computed using a majority vote approach. 
 
 * **Category_Label**: The individual label assigned by each annotator.
 
 **Example**: 
 
-| Video_ID | Sexism_Majority_Voting_1 | Sexism_Label_1 | Sexism_Majority_Voting_2 | Sexism_Label_2 |
+| Video_ID | Sexism_Majority_Voting | Sexism_Label | Stereotypes_Majority_Voting| Stereotypes_Label |
 | :--- | :---: | :---: | :---: | :---: |
-| bt_1bQe-FLbb5k | 1 | [1, 0, 1] | 1 | 1 |
+| bt_1bQe-FLbb5k | 1 | [1, 0, 1] | 1 | [0, 1, 1] |
 
 
 For research purposes, you can get access to the full dataset by filling out this FORM (LINK). 
