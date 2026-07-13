@@ -18,3 +18,10 @@ FineMuSe has a balanced distribution between sexist and non-sexist content, with
 <div>
   <img width="90%" alt="combined_sexism_figures" src="https://github.com/user-attachments/assets/4a3975e2-c72a-4b6c-8831-e80bc9cbcf2b" />
 </div>
+
+<h2>
+  <img width="40" alt="analysing" src="https://github.com/user-attachments/assets/1763a843-f6ee-4322-9918-55e9629dca34" />
+  Annotation Process
+</h2>
+
+We relied on six expert annotators of diverse gender and age to ensure demographic variety. The group was split into two teams, each assigned half of the dataset. Annotation followed a three-step approach: first, annotating text transcripts; second, annotating audio; and finally, annotating videos. Each team annotated the text transcripts and video for their assigned subset, while the other team handled the audio.
