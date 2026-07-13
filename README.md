@@ -16,8 +16,7 @@ The final dataset contains 828 videos, each labeled as sexist or non-sexist, and
 FineMuSe has a balanced distribution between sexist and non-sexist content, with 48.5% of the videos labeled as sexist in P1 and 54.2% in P2. The following figures illustrate the distribution of sexist and non-sexist categories across P1 and P2:
 
 <div>
-  <img width="45%" alt="updated_sexist_types" src="[combined_sexism_figures.pdf](https://github.com/user-attachments/files/29960186/combined_sexism_figures.pdf)
-" />
+  <img width="45%" alt="updated_sexist_types" src="[combined_sexism_figures.pdf](https://github.com/user-attachments/files/29960239/combined_sexism_figures.pdf)" />
 </div>
 
 
