@@ -37,4 +37,11 @@ We evaluated a wide range of LLMs that process text-only inputs as well as multi
 
 <img width="1138" height="424" alt="macro_f1" src="https://github.com/user-attachments/files/29962132/per_class_f1_multimodal.pdf" />
 
+<h2>
+  <img width="40" alt="robot" src="https://github.com/user-attachments/assets/1a1a55e2-93f3-440b-a683-d5dcfe134b54" />
+  Evaluation of LLMs and Multimodal LLMs 
+</h2>
 
+<h2>
+  Dataset file structure  
+</h2>
