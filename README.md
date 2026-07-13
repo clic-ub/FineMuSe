@@ -42,6 +42,4 @@ We evaluated a wide range of LLMs that process text-only inputs as well as multi
   Evaluation of LLMs and Multimodal LLMs 
 </h2>
 
-<h2>
-  Dataset file structure  
-</h2>
+## Dataset file structure
